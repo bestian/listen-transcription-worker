@@ -27,16 +27,20 @@ interface UpdateOutlineRequest {
 
 // 允許的來源白名單
 const ALLOWED_ORIGINS = [
-	'https://vtaiwan.pages.dev',
+	'https://deep-listening.pages.dev',
+	'http://localhost:5173',
+	'http://localhost:5174',
 	'http://localhost:3000',
 	'http://localhost:3001',
 	'http://localhost:4173',
-	  'http://localhost:4174',
+	'http://localhost:4174',
 	'http://localhost:8080',
 	'http://localhost:8081',
-	'https://vtaiwan.tw',
-	'https://www.vtaiwan.tw',
-	'https://talk.vtaiwan.tw',
+	'https://listen.bestian.tw',
+	'https://bestian.tw',
+	'https://www.bestian.tw',
+	'https://hack.bestian.tw',
+	'https://talk.bestian.tw',
 	// 可以根據需要添加更多允許的來源
   ];
 

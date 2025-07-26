@@ -1,4 +1,4 @@
-# vTaiwan 音頻轉錄 Worker
+# listen 音頻轉錄 Worker
 
 這是一個基於 Cloudflare Workers 的音頻轉錄服務，使用 Whisper AI 模型將音頻檔案轉換為繁體中文文字。
 

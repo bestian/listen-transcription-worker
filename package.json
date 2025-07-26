@@ -1,5 +1,5 @@
 {
-	"name": "vtaiwan-transcription-worker",
+	"name": "listen-transcription-worker",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {

@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "vtaiwan-transcription-worker",
+	"name": "listen-transcription-worker",
 	"main": "src/index.ts",
 	"compatibility_date": "2024-09-23",
 	"compatibility_flags": ["nodejs_compat"],
@@ -27,16 +27,16 @@
 	"d1_databases": [
 		{
 		  "binding": "DB",
-		  "database_name": "vtaiwan-transcriptions",
-		  "database_id": "1549c21e-2aa2-4f45-8943-3f9f92a543c8"  // 實際的 D1 database ID
+		  "database_name": "listen-transcriptions",
+		  "database_id": "3ad6f854-11cc-472e-9832-59a236b447c0"
 		}
 	],
 	// R2 儲存桶配置
 	"r2_buckets": [
 		{
 		  "binding": "R2",
-		  "bucket_name": "vtaiwan-meeting-files",
-		  "preview_bucket_name": "vtaiwan-meeting-files-preview"
+		  "bucket_name": "listen-meeting-files",
+		  "preview_bucket_name": "listen-meeting-files-preview"
 		}
 	],
 	// AI 推理配置
