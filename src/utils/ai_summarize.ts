@@ -70,7 +70,7 @@ async function generateChunkSummary(chunk: string, env: any, chunkIndex: number,
 	//console.log(`chunk：${chunk}`);
 
 	try {
-		// 使用 gpt-oss-20b 模型
+		// 使用 gpt-oss-120b 模型
 		const response = await env.AI.run("@cf/openai/gpt-oss-120b", {
 			instructions: prompt,
 			input: chunk
